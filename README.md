@@ -2,7 +2,29 @@
 
 # 科研 Agent Skills 包
 
-面向科研人员的通用 AI Agent 技能集合，覆盖 10 个学科方向。适用于 Hermes、Claude Code、Codex、Cursor 等主流 AI 编程/研究助手。
+面向科研人员的通用 AI Agent 技能集合，覆盖 10 个学科方向。
+
+## 为什么用这个？
+
+**其他仓库的问题：**
+- `everything-claude-code` —— 绑定 Claude Code，换 Agent 就不能用
+- `academic-research-skills` —— 只有英文，学科覆盖单一
+- 大多数 skills 包 —— 只教你"怎么用 Agent"，不教你"怎么做科研"
+
+**这个仓库的优势：**
+
+| 对比项 | 其他仓库 | 这个仓库 |
+|--------|----------|----------|
+| Agent 兼容 | 仅 Claude Code | Hermes、Claude Code、Cursor、Codex、Windsurf 通用 |
+| 语言 | 英文 | 中英双语 |
+| 学科覆盖 | 通用/CS 为主 | 10 个学科方向（理工文法全覆盖） |
+| 输出格式 | 自由发挥 | 结构化模板（可直接用于开题报告、论文、实验方案） |
+| 质量控制 | 无 | 全局规则（不编造文献、标注不确定性、区分事实与推断） |
+
+**适合谁：**
+- 研究生：开题、文献综述、论文写作
+- 科研人员：实验设计、数据分析、论文复现
+- 跨学科研究：需要多个领域的方法论支持
 
 ## Skills 列表
 
@@ -49,6 +71,7 @@ cp -r research-skills/en/skills/* ~/.hermes/skills/
 | Claude Code | 项目根目录的 `CLAUDE.md` 或 `.claude/` |
 | Cursor | 项目根目录的 `.cursorrules` |
 | Codex | 项目根目录的 `AGENTS.md` |
+| Windsurf | 项目根目录的 `.windsurfrules` |
 
 ## 全局规则
 

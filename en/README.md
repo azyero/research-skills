@@ -2,7 +2,29 @@
 
 # Research Agent Skills Pack
 
-Universal AI Agent skills collection for researchers, covering 10 academic disciplines. Compatible with Hermes, Claude Code, Codex, Cursor, and other mainstream AI coding/research assistants.
+Universal AI Agent skills collection for researchers, covering 10 academic disciplines.
+
+## Why This?
+
+**The problem with other repos:**
+- `everything-claude-code` — locked to Claude Code, useless if you switch agents
+- `academic-research-skills` — English only, narrow discipline coverage
+- Most skills repos — teach "how to use an agent", not "how to do research"
+
+**This repo's advantages:**
+
+| Comparison | Other Repos | This Repo |
+|------------|-------------|-----------|
+| Agent Support | Claude Code only | Hermes, Claude Code, Cursor, Codex, Windsurf — universal |
+| Language | English | Bilingual (Chinese + English) |
+| Discipline Coverage | General/CS focused | 10 disciplines (STEM, Social Science, Humanities, Law) |
+| Output Format | Free-form | Structured templates (ready for proposals, papers, experiments) |
+| Quality Control | None | Global rules (no fabrication, mark uncertainty, separate facts from inferences) |
+
+**Who it's for:**
+- Graduate students: proposals, literature reviews, paper writing
+- Researchers: experiment design, data analysis, paper reproduction
+- Interdisciplinary research: methodology support across fields
 
 ## Skills List
 
@@ -49,6 +71,7 @@ cp -r research-skills/en/skills/* ~/.hermes/skills/
 | Claude Code | Project root `CLAUDE.md` or `.claude/` |
 | Cursor | Project root `.cursorrules` |
 | Codex | Project root `AGENTS.md` |
+| Windsurf | Project root `.windsurfrules` |
 
 ## Global Rules
 
