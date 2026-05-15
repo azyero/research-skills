@@ -51,18 +51,6 @@ cp -r hermes-research-skills/skills/general ~/.hermes/skills/
 - 区分事实、推断和建议
 - 主动指出研究设计漏洞
 
-## 扩展方向
-
-后续可扩展的细粒度 skill：
-
-- NLP 论文精读
-- 临床试验设计
-- DID 政策评估
-- XRD 图谱分析
-- 访谈编码
-- 开题报告生成
-- 审稿意见回复
-- 论文润色
 
 ## License
 
