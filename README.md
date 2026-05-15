@@ -1,3 +1,5 @@
+[English Version](en/README.md) | 中文版
+
 # 科研 Agent Skills 包
 
 面向科研人员的 [Hermes Agent](https://github.com/nousresearch/hermes-agent) 技能集合，覆盖 10 个学科方向。
