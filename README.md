@@ -2,7 +2,7 @@
 
 # 科研 Agent Skills 包
 
-面向科研人员的 [Hermes Agent](https://github.com/nousresearch/hermes-agent) 技能集合，覆盖 10 个学科方向。
+面向科研人员的通用 AI Agent 技能集合，覆盖 10 个学科方向。适用于 Hermes、Claude Code、Codex、Cursor 等主流 AI 编程/研究助手。
 
 ## Skills 列表
 
@@ -19,30 +19,36 @@
 | [legal-research](skills/law/) | 法学 | 规范分析、案例检索、争议梳理 |
 | [education-psychology-method](skills/education-psychology/) | 教育心理 | 量表设计、实验设计、统计分析 |
 
-## 安装
+## 使用方式
+
+**最简单的方式：把仓库地址发给你的 AI Agent，让它自己安装。**
+
+```
+请帮我安装这些科研skills：https://github.com/azyero/hermes-research-skills
+```
+
+Agent 会自动克隆仓库并将 skills 安装到正确位置。
+
+### 手动安装
 
 ```bash
-# 克隆仓库
 git clone https://github.com/azyero/hermes-research-skills.git
 
-# 复制到 Hermes skills 目录
+# 中文版
 cp -r hermes-research-skills/skills/* ~/.hermes/skills/
+
+# 英文版
+cp -r hermes-research-skills/en/skills/* ~/.hermes/skills/
 ```
 
-或单独安装：
+### 适用 Agent
 
-```bash
-cp -r hermes-research-skills/skills/general ~/.hermes/skills/
-```
-
-## 使用
-
-安装后重启 Hermes，对话中涉及科研任务时会自动触发对应 skill。
-
-示例：
-- "帮我梳理一下大语言模型在教育领域的研究现状"
-- "这篇论文的方法怎么复现"
-- "帮我设计一个研究社交媒体对青少年心理健康影响的方案"
+| Agent | Skills 目录 |
+|-------|-------------|
+| Hermes | `~/.hermes/skills/` |
+| Claude Code | 项目根目录的 `CLAUDE.md` 或 `.claude/` |
+| Cursor | 项目根目录的 `.cursorrules` |
+| Codex | 项目根目录的 `AGENTS.md` |
 
 ## 全局规则
 
@@ -52,7 +58,6 @@ cp -r hermes-research-skills/skills/general ~/.hermes/skills/
 - 标注不确定性
 - 区分事实、推断和建议
 - 主动指出研究设计漏洞
-
 
 ## License
 

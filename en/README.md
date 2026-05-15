@@ -1,6 +1,8 @@
-# Research Agent Skills Pack (English)
+[中文版](../README.md) | English
 
-[Hermes Agent](https://github.com/nousresearch/hermes-agent) skills collection for researchers, covering 10 academic disciplines.
+# Research Agent Skills Pack
+
+Universal AI Agent skills collection for researchers, covering 10 academic disciplines. Compatible with Hermes, Claude Code, Codex, Cursor, and other mainstream AI coding/research assistants.
 
 ## Skills List
 
@@ -17,30 +19,36 @@
 | [legal-research](skills/law/) | Law | Normative analysis, case retrieval |
 | [education-psychology-method](skills/education-psychology/) | Education/Psychology | Scale design, statistical analysis |
 
-## Installation
+## Usage
+
+**Easiest way: send the repo URL to your AI Agent and let it install.**
+
+```
+Please install these research skills: https://github.com/azyero/hermes-research-skills
+```
+
+The agent will automatically clone the repo and install skills to the correct location.
+
+### Manual Installation
 
 ```bash
-# Clone repo
 git clone https://github.com/azyero/hermes-research-skills.git
 
-# Copy to Hermes skills directory
+# Chinese version
+cp -r hermes-research-skills/skills/* ~/.hermes/skills/
+
+# English version
 cp -r hermes-research-skills/en/skills/* ~/.hermes/skills/
 ```
 
-Or install individually:
+### Compatible Agents
 
-```bash
-cp -r hermes-research-skills/en/skills/general ~/.hermes/skills/
-```
-
-## Usage
-
-After installation, restart Hermes. Research tasks will automatically trigger corresponding skills.
-
-Examples:
-- "Help me review the current research on LLMs in education"
-- "How do I reproduce this paper's method?"
-- "Design a study on social media's impact on adolescent mental health"
+| Agent | Skills Directory |
+|-------|------------------|
+| Hermes | `~/.hermes/skills/` |
+| Claude Code | Project root `CLAUDE.md` or `.claude/` |
+| Cursor | Project root `.cursorrules` |
+| Codex | Project root `AGENTS.md` |
 
 ## Global Rules
 
@@ -50,17 +58,6 @@ All skills share [RESEARCH_RULES.md](skills/RESEARCH_RULES.md):
 - Mark uncertainty
 - Distinguish facts, inferences, and suggestions
 - Proactively identify research design flaws
-
-## Future Extensions
-
-- NLP paper deep reading
-- Clinical trial design
-- DID policy evaluation
-- XRD spectrum analysis
-- Interview coding
-- Proposal generation
-- Peer review response
-- Paper polishing
 
 ## License
 
