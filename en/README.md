@@ -24,7 +24,7 @@ Universal AI Agent skills collection for researchers, covering 10 academic disci
 **Easiest way: send the repo URL to your AI Agent and let it install.**
 
 ```
-Please install these research skills: https://github.com/azyero/hermes-research-skills
+Please install these research skills: https://github.com/azyero/research-skills
 ```
 
 The agent will automatically clone the repo and install skills to the correct location.
@@ -32,13 +32,13 @@ The agent will automatically clone the repo and install skills to the correct lo
 ### Manual Installation
 
 ```bash
-git clone https://github.com/azyero/hermes-research-skills.git
+git clone https://github.com/azyero/research-skills.git
 
 # Chinese version
-cp -r hermes-research-skills/skills/* ~/.hermes/skills/
+cp -r research-skills/skills/* ~/.hermes/skills/
 
 # English version
-cp -r hermes-research-skills/en/skills/* ~/.hermes/skills/
+cp -r research-skills/en/skills/* ~/.hermes/skills/
 ```
 
 ### Compatible Agents

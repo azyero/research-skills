@@ -24,7 +24,7 @@
 **最简单的方式：把仓库地址发给你的 AI Agent，让它自己安装。**
 
 ```
-请帮我安装这些科研skills：https://github.com/azyero/hermes-research-skills
+请帮我安装这些科研skills：https://github.com/azyero/research-skills
 ```
 
 Agent 会自动克隆仓库并将 skills 安装到正确位置。
@@ -32,13 +32,13 @@ Agent 会自动克隆仓库并将 skills 安装到正确位置。
 ### 手动安装
 
 ```bash
-git clone https://github.com/azyero/hermes-research-skills.git
+git clone https://github.com/azyero/research-skills.git
 
 # 中文版
-cp -r hermes-research-skills/skills/* ~/.hermes/skills/
+cp -r research-skills/skills/* ~/.hermes/skills/
 
 # 英文版
-cp -r hermes-research-skills/en/skills/* ~/.hermes/skills/
+cp -r research-skills/en/skills/* ~/.hermes/skills/
 ```
 
 ### 适用 Agent
