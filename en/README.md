@@ -4,24 +4,22 @@
 
 Universal AI Agent skills collection for researchers, covering 10 academic disciplines.
 
-## Why This?
+## Features
 
-**The problem with other repos:**
-- `everything-claude-code` — locked to Claude Code, useless if you switch agents
-- `academic-research-skills` — English only, narrow discipline coverage
-- Most skills repos — teach "how to use an agent", not "how to do research"
+**Universal Compatibility** — Works with Hermes, Claude Code, Cursor, Codex, Windsurf and other mainstream AI Agents. Switch tools without switching skills.
 
-**This repo's advantages:**
+**Wide Discipline Coverage** — 10 directions: General, Computer Science, Biomedical, Social Science, Economics/Finance, Materials/Chemistry, Environmental Science, Humanities, Law, Education/Psychology.
 
-| Comparison | Other Repos | This Repo |
-|------------|-------------|-----------|
-| Agent Support | Claude Code only | Hermes, Claude Code, Cursor, Codex, Windsurf — universal |
-| Language | English | Bilingual (Chinese + English) |
-| Discipline Coverage | General/CS focused | 10 disciplines (STEM, Social Science, Humanities, Law) |
-| Output Format | Free-form | Structured templates (ready for proposals, papers, experiments) |
-| Quality Control | None | Global rules (no fabrication, mark uncertainty, separate facts from inferences) |
+**Bilingual** — Every skill available in both Chinese and English.
 
-**Who it's for:**
+**Structured Output** — Consistent templates for literature reviews, research designs, experiment plans, and paper drafts. Output ready for proposals and papers.
+
+**Quality Control** — Global rules: no fabrication, mark uncertainty, separate facts from inferences, proactively identify research design flaws.
+
+**One-Command Install** — Send the repo URL to your Agent and it installs automatically.
+
+## Who It's For
+
 - Graduate students: proposals, literature reviews, paper writing
 - Researchers: experiment design, data analysis, paper reproduction
 - Interdisciplinary research: methodology support across fields
